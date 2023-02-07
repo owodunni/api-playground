@@ -52,7 +52,7 @@ const ApiDocumentation: React.FC = () => {
   }, [inspectorContents]);
 
   useEffect(() => {
-    const hasEthereum = window.ethereum && window.ethereum.isMetaMask;
+    const hasEthereum = window.ethereum;
     setShowInstallDialog(!hasEthereum);
   }, [window.ethereum])
 
