@@ -2030,35 +2030,6 @@
   resolved "https://registry.yarnpkg.com/@open-rpc/examples/-/examples-1.6.1.tgz#c48b8976be21c839711f1f0ef49ab1aa2dd9bc44"
   integrity sha512-R0R8IimU5yJeAFe94GspnynIj0bv2AM57Px3cTwZkVwg6fCYOw+9l4gOQc402f+kSvZC7/BjNPyGtQ83oDbDYw==
 
-"@open-rpc/inspector@^1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@open-rpc/inspector/-/inspector-1.7.1.tgz#9a0a2ca74b8a26c36fbb3f9feaadaf556ff31089"
-  integrity sha512-ty3A9OmyC7L6LoXdrIPcik9jcKFyHR/d/K+OAyhVEOdyZJGjN2dXfVmMJ7oZiUzjbsvzcwbyVj1w4tE9+n6MTg==
-  dependencies:
-    "@etclabscore/monaco-add-json-schema-diagnostics" "^1.0.3"
-    "@etclabscore/react-monaco-editor" "^1.0.4"
-    "@material-ui/core" "4.9.8"
-    "@material-ui/icons" "3.0.2"
-    "@material-ui/lab" "4.0.0-alpha.47"
-    "@monaco-editor/react" "^2.3.0"
-    "@open-rpc/client-js" "^1.6.3"
-    "@open-rpc/logs-react" "^1.2.0"
-    "@open-rpc/meta-schema" "^1.13.20"
-    "@open-rpc/schema-utils-js" "^1.14.3"
-    "@rehooks/window-size" "^1.0.2"
-    acorn-dynamic-import "^4.0.0"
-    monaco-editor "^0.18.1"
-    monaco-vim "0.0.14"
-    qs "^6.8.0"
-    react "^16.12.0"
-    react-dom "^16.12.0"
-    react-json-view "^1.19.1"
-    react-split-pane "^0.1.87"
-    semantic-release "^15.13.21"
-    use-dark-mode "^2.3.1"
-    use-debounce "^3.3.0"
-    use-persisted-state "^0.3.3"
-
 "@open-rpc/logs-react@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@open-rpc/logs-react/-/logs-react-1.2.0.tgz#ee4718ea84891b58e197f671b0d4a0451f2580fe"
@@ -2099,6 +2070,35 @@
     fs-extra "^9.0.0"
     is-url "^1.2.4"
     isomorphic-fetch "^3.0.0"
+
+"@owodunni/inspector@0.0.3-development":
+  version "0.0.3-development"
+  resolved "https://registry.yarnpkg.com/@owodunni/inspector/-/inspector-0.0.3-development.tgz#6e04babc226f1d149191fc1718cbfb6ea26e0ad8"
+  integrity sha512-63LOeRRF9mxAQJ8BnFhOpDewhEvkdEt/cY22CnlziO1CNAQDeCQbrylThQYlIGg8CK2orjsEASFGrAapAExpTA==
+  dependencies:
+    "@etclabscore/monaco-add-json-schema-diagnostics" "^1.0.3"
+    "@etclabscore/react-monaco-editor" "^1.0.4"
+    "@material-ui/core" "4.9.8"
+    "@material-ui/icons" "3.0.2"
+    "@material-ui/lab" "4.0.0-alpha.47"
+    "@monaco-editor/react" "^2.3.0"
+    "@open-rpc/client-js" "^1.6.3"
+    "@open-rpc/logs-react" "^1.2.0"
+    "@open-rpc/meta-schema" "^1.13.20"
+    "@open-rpc/schema-utils-js" "^1.14.3"
+    "@rehooks/window-size" "^1.0.2"
+    acorn-dynamic-import "^4.0.0"
+    monaco-editor "^0.18.1"
+    monaco-vim "0.0.14"
+    qs "^6.8.0"
+    react "^16.12.0"
+    react-dom "^16.12.0"
+    react-json-view "^1.19.1"
+    react-split-pane "^0.1.87"
+    semantic-release "^15.13.21"
+    use-dark-mode "^2.3.1"
+    use-debounce "^3.3.0"
+    use-persisted-state "^0.3.3"
 
 "@pieh/friendly-errors-webpack-plugin@1.7.0-chalk-2":
   version "1.7.0-chalk-2"

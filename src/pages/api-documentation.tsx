@@ -4,7 +4,7 @@ import Documentation from "@open-rpc/docs-react";
 import useDarkMode from "use-dark-mode";
 import "./api-documentation.css";
 import InspectorPlugin from "../docs-react-plugins";
-import Inspector from "@open-rpc/inspector";
+import Inspector from "@owodunni/inspector";
 import * as monaco from "monaco-editor";
 import { Button, Typography,Container, Tab, Tabs, IconButton, Tooltip, Dialog, DialogTitle, DialogActions, DialogContent, Avatar } from "@material-ui/core";
 import ExpandMore from "@material-ui/icons/ExpandMore";
@@ -163,15 +163,7 @@ const ApiDocumentation: React.FC = () => {
         right={
           <Inspector
             url={inspectorUrl}
-            customTransport={{
-              type: "plugin",
-              name: "MetaMask",
-              transport: {
-                name: "PostMessageIframe",
-                type: "postmessageiframe",
-              },
-              uri: "https://metamask.github.io/openrpc-inspector-transport",
-            }}
+            transport={"ethereumwindow"}
             hideToggleTheme={true}
             openrpcDocument={openrpcDocument}
             darkMode={darkmode.value}
